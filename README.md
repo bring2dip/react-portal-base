@@ -54,7 +54,7 @@ import Alert from 'some alert component';
 export default ModalInPortalTest() {
   
   return (
-    <Portal portalType="notification" timeout={3000}>
+    <Portal portalType="notification" timeout={5000}>
      <Alert />
     </Portal>
   );
