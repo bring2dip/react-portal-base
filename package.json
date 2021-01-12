@@ -1,0 +1,30 @@
+{
+  "name": "react-portal-base",
+  "version": "1.0.0",
+  "main": "src/Protal",
+  "repository": "https://github.com/bring2dip/react-portal-base",
+  "license": "MIT",
+  "engines": {
+    "node": ">=8.16.2",
+    "npm": ">=6.4.1"
+  },
+  "scripts": {
+    "lint:js": "eslint --ignore-path .gitignore --ignore-pattern src .",
+    "lint:fix:js": "eslint --ignore-path .gitignore --ignore-pattern src . --fix",
+    "build": "",
+    "test": ""
+  },
+  "dependencies": {
+    "prop-types": "^15.6.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.17.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.22.0"
+  }
+}
