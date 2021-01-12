@@ -27,6 +27,9 @@ Add root element in your view.
 ````
 
 
+## Example Usage
+https://codesandbox.io/s/stoic-shadow-959u8
+
 ## Modal
 
 ````

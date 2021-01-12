@@ -1,7 +1,7 @@
 {
   "name": "react-portal-base",
-  "version": "1.0.0",
-  "main": "src/Protal",
+  "version": "1.1.0",
+  "main": "src/Portal",
   "repository": "https://github.com/bring2dip/react-portal-base",
   "license": "MIT",
   "engines": {
@@ -15,9 +15,9 @@
     "test": ""
   },
   "dependencies": {
-    "prop-types": "^15.6.2",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
   },
   "devDependencies": {
     "eslint": "^7.17.0",
