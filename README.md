@@ -9,7 +9,7 @@ or
 yarn add react-portal-base
 ````
 
-##Setup
+## Setup
 Add root element in your view.
 ````
 <!--For notification-->
@@ -27,7 +27,7 @@ Add root element in your view.
 ````
 
 
-##Modal
+## Modal
 
 ````
 import React from 'react';
@@ -44,7 +44,7 @@ export default ModalInPortalTest() {
 }
 ````
 
-##Notifiction
+## Notifiction
 Children inside notification portal disappear after `timeout` in ms. Default is `3000ms`.
 ````
 import React from 'react';
