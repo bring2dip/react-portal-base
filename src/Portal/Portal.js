@@ -55,7 +55,7 @@ export default function Portal({ portalType, notificationRootId, modalRootId, ti
 Portal.propTypes = {
   children: PropTypes.node.isRequired,
   timeout: PropTypes.number,
-  portalType: PropTypes.string.oneOf(['modal', 'notification']).isRequired,
+  portalType: PropTypes.oneOf(['modal', 'notification']).isRequired,
   notificationRootId: PropTypes.string,
   modalRootId: PropTypes.string,
 };
